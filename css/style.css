@@ -1,4 +1,5 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 /* Paletas de colores que pueden usar: */
 
@@ -41,3 +42,8 @@
   -- color-texto: #f8fafc;
   -- color-texto-suave: #e2b1f5
 */
+body {
+  background-color: #1e293b;
+  color: #f8fafc;
+  font-family: "DM Sans", sans-serif;
+}
