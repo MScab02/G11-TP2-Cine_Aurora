@@ -12,9 +12,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
   grid-template-areas:
-    "caja1 caja1 caja2 caja2 caja3 caja4"
-    "caja1 caja1 caja2 caja2 caja5 caja6"
-    "caja1 caja1 caja7 caja7 caja7 caja7"
+    "caja1 caja1 caja2 caja2 caja2 caja2"
+    "caja1 caja1 caja3 caja4 caja5 caja6"
     "caja1 caja1 caja7 caja7 caja7 caja7";
 }
 
@@ -23,6 +22,11 @@
   padding: 20px;
   border: 4px solid #68a3b8;
   border-radius: 8px;
+}
+
+.caja1 img {
+  width: 360px;
+  height: 470px;
 }
 
 .caja2 {
