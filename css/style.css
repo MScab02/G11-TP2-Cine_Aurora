@@ -56,23 +56,25 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: #e2b1f5;
+  color: #f8fafc;
   font-weight: bold;
 }
 
 h3 {
   font-size: 20px;
-  color: f8fafc;
+  color: #f8fafc;
   font-weight: bold;
 }
 
 header {
-  width: 100%;
+  width: auto;
   background-color: #0f172a;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
+  border-radius: 8px;
 }
 
 header .Logo {
