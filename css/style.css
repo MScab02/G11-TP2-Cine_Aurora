@@ -31,3 +31,37 @@
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
 }*/
+
+.contenedor-peliculas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 24px;
+}
+
+.card {
+  background-color: var(--color-superficie);
+  padding: 16px;
+  border-radius: 12px;
+  color: var(--color-texto);
+}
+
+.card a {
+  background-color: var(--color-primario);
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: block;
+  margin-top: 8px;
+}
+
+.card a:hover {
+  background-color: var(--color-secundario);
+}
+
+@media (max-width: 768px) {
+  .contenedor-peliculas {
+    grid-template-columns: 1fr;
+  }
+}
