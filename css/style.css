@@ -70,6 +70,7 @@ header {
   width: auto;
   background-color: #0f172a;
   padding: 20px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,7 +113,6 @@ header .Menu a {
     width: auto;
     background-color: #0f172a;
     padding: 20px;
-    margin-bottom: 10px;
     gap: 20px;
     border-radius: 8px;
   }
