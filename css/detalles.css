@@ -140,17 +140,19 @@
 
 @media (max-width: 1464px) {
   .contenedor {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "caja1 caja2 caja2"
-      "caja1 caja3 caja3"
-      "caja4 caja4 caja4"
-      "caja5 caja5 caja5"
-      "caja6 caja6 caja6"
-      "caja7 caja7 caja7"
-      "caja9 caja9 caja9"
-      "caja8 caja8 caja8"
-      "caja10 caja10 caja10";
+      "caja1 caja2"
+      "caja1 caja3"
+      "caja4 caja5"
+      "caja6 caja7"
+      "caja8 caja8"
+      "caja9 caja10";
+  }
+
+  .poster {
+    display: flex;
+    justify-content: center;
   }
 }
 
