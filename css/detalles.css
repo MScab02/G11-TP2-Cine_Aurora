@@ -138,6 +138,166 @@
   background-color: #0f172a;
 }
 
+@media (max-width: 1464px) {
+  .contenedor {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "caja1 caja2 caja2"
+      "caja1 caja3 caja3"
+      "caja4 caja4 caja4"
+      "caja5 caja5 caja5"
+      "caja6 caja6 caja6"
+      "caja7 caja7 caja7"
+      "caja9 caja9 caja9"
+      "caja8 caja8 caja8"
+      "caja10 caja10 caja10";
+  }
+}
+
+@media (min-width: 725px) and (max-width: 860px) {
+  .contenedor {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "caja2 caja2"
+      "caja1 caja1"
+      "caja3 caja3"
+      "caja4 caja4"
+      "caja5 caja5"
+      "caja6 caja6"
+      "caja7 caja7"
+      "caja9 caja9"
+      "caja8 caja8"
+      "caja10 caja10";
+  }
+
+  .poster {
+    display: flex;
+    justify-content: center;
+  }
+
+  .poster img {
+    width: 90%;
+    height: auto;
+  }
+
+  .tituloPelicula {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .sinopsisPelicula {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .duracionPelicula {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .duracionPelicula p {
+    text-align: right;
+  }
+
+  .generoPelicula {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .generoPelicula p {
+    text-align: right;
+  }
+
+  .directorPelicula {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .directorPelicula p {
+    text-align: right;
+  }
+
+  .clasificacionPelicula {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .clasificacionPelicula p {
+    text-align: right;
+  }
+
+  .horariosPelicula {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .horariosPelicula h3,
+  .horariosPelicula p {
+    margin: 0;
+  }
+
+  .puntuacionPelicula {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+
+  .puntuacionPelicula p {
+    text-align: right;
+  }
+
+  .comprarEntradas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #68a3b8;
+    border-radius: 8px;
+    background-color: #0f172a;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 724px) {
   .contenedor {
     grid-template-columns: 1fr 1fr;
