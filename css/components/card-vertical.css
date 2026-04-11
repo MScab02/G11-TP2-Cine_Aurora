@@ -1,0 +1,22 @@
+.tituloPelicula {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 4px solid #68a3b8;
+  border-radius: 8px;
+  background-color: #0f172a;
+}
+
+.sinopsisPelicula {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  padding: 30px;
+  border: 4px solid #68a3b8;
+  border-radius: 8px;
+  background-color: #0f172a;
+}
