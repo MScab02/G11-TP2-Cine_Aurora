@@ -28,20 +28,6 @@ header .Logo img {
   height: 60px;
 }
 
-header .Menu {
-  background-color: #1e293b;
-  font-size: 18px;
-  padding: 20px;
-  gap: 30px;
-  border-radius: 8px;
-}
-
-header .Menu a {
-  color: #f8fafc;
-  text-decoration: none;
-  padding: 4px;
-}
-
 @media (min-width: 375px) and (max-width: 723px) {
   header {
     display: flex;
@@ -67,20 +53,5 @@ header .Menu a {
 
   header .Logo h1 {
     font-size: 20px;
-  }
-
-  header .Menu {
-    display: flex;
-    background-color: #1e293b;
-    font-size: 14px;
-    text-align: center;
-    padding: 20px;
-    gap: 30px;
-    border-radius: 8px;
-  }
-
-  header .Menu a {
-    color: #f8fafc;
-    text-decoration: none;
   }
 }
