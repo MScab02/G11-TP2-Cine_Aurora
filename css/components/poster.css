@@ -1,6 +1,8 @@
-/* las fotos de las películas están más pequeñas por un tema de visibilidad
-modifiquen los atributos a su gusto con una clase, o eliminen esta parte del código */
-img {
-  width: 100px;
-  height: 100px;
+.poster img {
+  display: flex;
+  width: 400px;
+  height: auto;
+  border: 4px solid #68a3b8;
+  border-radius: 8px;
+  align-items: center;
 }
