@@ -105,30 +105,16 @@
   }
 
   .horariosPelicula {
-    display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    border: 4px solid #68a3b8;
-    border-radius: 8px;
-    background-color: #0f172a;
   }
 
   .horariosPelicula h3,
   .horariosPelicula p {
     margin: 0;
   }
-
-  .comprarEntradas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid #68a3b8;
-    border-radius: 8px;
-    background-color: #0f172a;
-  }
 }
-
 @media (min-width: 375px) and (max-width: 724px) {
   .contenedor {
     grid-template-columns: 1fr 1fr;
@@ -156,26 +142,13 @@
   }
 
   .horariosPelicula {
-    display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    border: 4px solid #68a3b8;
-    border-radius: 8px;
-    background-color: #0f172a;
   }
 
   .horariosPelicula h3,
   .horariosPelicula p {
     margin: 0;
-  }
-
-  .comprarEntradas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid #68a3b8;
-    border-radius: 8px;
-    background-color: #0f172a;
   }
 }
