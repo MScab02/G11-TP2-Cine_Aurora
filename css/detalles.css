@@ -104,22 +104,6 @@
     height: auto;
   }
 
-  .duracionPelicula p {
-    text-align: right;
-  }
-
-  .generoPelicula p {
-    text-align: right;
-  }
-
-  .directorPelicula p {
-    text-align: right;
-  }
-
-  .clasificacionPelicula p {
-    text-align: right;
-  }
-
   .horariosPelicula {
     display: flex;
     flex-direction: column;
@@ -133,10 +117,6 @@
   .horariosPelicula h3,
   .horariosPelicula p {
     margin: 0;
-  }
-
-  .puntuacionPelicula p {
-    text-align: right;
   }
 
   .comprarEntradas {
@@ -175,22 +155,6 @@
     height: auto;
   }
 
-  .duracionPelicula p {
-    text-align: right;
-  }
-
-  .generoPelicula p {
-    text-align: right;
-  }
-
-  .directorPelicula p {
-    text-align: right;
-  }
-
-  .clasificacionPelicula p {
-    text-align: right;
-  }
-
   .horariosPelicula {
     display: flex;
     flex-direction: column;
@@ -204,10 +168,6 @@
   .horariosPelicula h3,
   .horariosPelicula p {
     margin: 0;
-  }
-
-  .puntuacionPelicula p {
-    text-align: right;
   }
 
   .comprarEntradas {
