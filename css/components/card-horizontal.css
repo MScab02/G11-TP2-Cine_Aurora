@@ -1,53 +1,9 @@
-.duracionPelicula {
+.card-horizontal {
   display: flex;
   justify-content: space-between;
   padding: 30px;
   gap: 20px;
   align-items: center;
-  border: 4px solid #68a3b8;
-  border-radius: 8px;
-  background-color: #0f172a;
-}
-
-.generoPelicula {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  gap: 20px;
-  border: 4px solid #68a3b8;
-  border-radius: 8px;
-  background-color: #0f172a;
-}
-
-.directorPelicula {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  gap: 20px;
-  border: 4px solid #68a3b8;
-  border-radius: 8px;
-  background-color: #0f172a;
-}
-
-.clasificacionPelicula {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  gap: 20px;
-  border: 4px solid #68a3b8;
-  border-radius: 8px;
-  background-color: #0f172a;
-}
-
-.puntuacionPelicula {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  gap: 20px;
   border: 4px solid #68a3b8;
   border-radius: 8px;
   background-color: #0f172a;
