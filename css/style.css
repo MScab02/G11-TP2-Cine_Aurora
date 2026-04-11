@@ -91,6 +91,11 @@ header .Logo h1 {
   font-size: 32px;
 }
 
+header .Logo img {
+  width: 60px;
+  height: 60px;
+}
+
 header .Menu {
   background-color: #1e293b;
   font-size: 18px;
