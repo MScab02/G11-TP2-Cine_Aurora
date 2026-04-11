@@ -9,15 +9,6 @@
   gap: 10px;
 }
 
-.poster img {
-  display: flex;
-  width: 400px;
-  height: auto;
-  border: 4px solid #68a3b8;
-  border-radius: 8px;
-  align-items: center;
-}
-
 .duracionPelicula p {
   text-align: right;
 }
