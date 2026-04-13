@@ -123,6 +123,11 @@ h2 {
   transition: transform 0.3s ease;
 }
 
+header img {
+  height: 60px;
+  width: auto;
+}
+
 .card:hover img {
   filter: brightness(0.6);
 }
