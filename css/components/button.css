@@ -1,6 +1,8 @@
+@import url(../style.css);
+
 .boton {
-  background-color: #7e58b0;
-  color: #f8fafc;
+  background-color: var(--color-primario);
+  color: var(--color-texto);
   font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;
@@ -8,8 +10,8 @@
 }
 
 .boton:hover {
-  background-color: #68a3b8;
-  color: #f8fafc;
+  background-color: var(--color-secundario);
+  color: var(--color-texto);
   font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;
@@ -17,8 +19,8 @@
 }
 
 .boton:active {
-  background-color: #68a3b8;
-  color: #e2b1f5;
+  background-color: var(--color-secundario);
+  color: var(--color-texto-suave);
   font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;

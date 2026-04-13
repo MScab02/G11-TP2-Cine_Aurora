@@ -1,5 +1,7 @@
+@import url(../style.css);
+
 header .Menu {
-  background-color: #1e293b;
+  background-color: var(--color-superficie);
   font-size: 18px;
   padding: 20px;
   gap: 30px;
@@ -7,7 +9,7 @@ header .Menu {
 }
 
 header .Menu a {
-  color: #f8fafc;
+  color: var(--color-texto);
   text-decoration: none;
   padding: 4px;
 }
@@ -15,7 +17,7 @@ header .Menu a {
 @media (min-width: 375px) and (max-width: 723px) {
   header .Menu {
     display: flex;
-    background-color: #1e293b;
+    background-color: var(--color-superficie);
     font-size: 14px;
     text-align: center;
     padding: 20px;
@@ -24,7 +26,7 @@ header .Menu a {
   }
 
   header .Menu a {
-    color: #f8fafc;
+    color: var(--color-texto);
     text-decoration: none;
   }
 }
