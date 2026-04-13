@@ -236,8 +236,13 @@ h2 {
 {
   display: flex;
   justify-self: center;
-
 }
+
+  #id-upcoming-movies-title h1
+  {
+    color: var(--color-texto);
+  }
+  
 
 .upcoming-movies-container
 {
