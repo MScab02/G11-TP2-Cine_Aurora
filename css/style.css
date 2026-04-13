@@ -33,96 +33,29 @@
   --color-texto-suave: #b3b3b3;
 }
 
-
-
 body {
-
   background-color: var(--color-fondo);
-  color:var(--color-texto);
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 32px;
-  background-color: var(--color-superficie);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
-}
-
-header h1 {
-  color: var(--color-primario);
-}
-
-nav a {
-  margin-left: 20px;
   color: var(--color-texto);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: var(--color-primario);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   font-size: 38px;
-  color: #e2b1f5;
+  color: var(--color-texto-suave);
   font-weight: bold;
 }
 
 h2 {
   font-size: 24px;
-  color: #f8fafc;
+  color: var(--color-texto);
   font-weight: bold;
+  margin-left: 24px;
 }
 
 h3 {
   font-size: 20px;
-  color: #f8fafc;
+  color: var(--color-texto);
   font-weight: bold;
-}
-
-header {
-  width: auto;
-  background-color: #0f172a;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  border-radius: 8px;
-}
-
-header .Logo {
-  font-size: 20px;
-  color: #e2b1f5;
-  background-color: #7e58b0;
-  border-radius: 8px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-header .Logo h1 {
-  font-size: 32px;
-}
-
-header .Menu {
-  background-color: #1e293b;
-  font-size: 18px;
-  padding: 20px;
-  gap: 30px;
-  margin-right: 20px;
-  border-radius: 8px;
-}
-
-header .Menu a {
-  color: #f8fafc;
-  text-decoration: none;
-  padding: 4px;
 }
 
 p {
@@ -131,14 +64,12 @@ p {
 
 /*Estilos index.html*/
 
-
 .contenedor-peliculas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 24px;
   padding: 24px;
 }
-
 
 .card {
   position: relative;
@@ -174,7 +105,7 @@ h2 {
 
 .card:hover {
   transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
 }
 
 .card:hover .overlay {
@@ -188,11 +119,10 @@ h2 {
   left: 0;
   right: 0;
 
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
 
   padding: 15px;
-
 
   display: flex;
   flex-direction: column;
@@ -200,7 +130,7 @@ h2 {
 
   opacity: 0;
   transform: translateY(30px);
-  transition: all 0.4s ease; 
+  transition: all 0.4s ease;
 }
 
 .overlay a {
@@ -223,7 +153,7 @@ h2 {
 @media (max-width: 768px) {
   .contenedor-peliculas {
     grid-template-columns: 1fr;
-  }  
+  }
   header {
     flex-direction: column;
     gap: 10px;
@@ -232,21 +162,17 @@ h2 {
 
 /* Estrenos CSS */
 
-#id-upcoming-movies-title
-{
+#id-upcoming-movies-title {
   display: flex;
   justify-self: center;
 }
 
-  #id-upcoming-movies-title h1
-  {
-    color: var(--color-texto);
-  }
-  
+#id-upcoming-movies-title h1 {
+  color: var(--color-texto);
+}
 
-.upcoming-movies-container
-{
-  margin:16px;
+.upcoming-movies-container {
+  margin: 16px;
   gap: 16px;
   background-color: var(--color-superficie);
   border-radius: 24px;
@@ -254,89 +180,70 @@ h2 {
   width: 60%;
 }
 
-  .upcoming-movies-container a 
-  {
-    all: unset;
-    cursor: pointer;
-  }
+.upcoming-movies-container a {
+  all: unset;
+  cursor: pointer;
+}
 
+.upcoming-movies-horizontal-layering {
+  display: flex;
+  flex-direction: row;
+}
 
+.upcoming-movies-poster {
+  margin: 12px;
+  /* width 160 - height 240 compatible with 4 rule */
+  width: 160px;
+  height: 240px;
 
-  .upcoming-movies-horizontal-layering
-  {
-    display: flex;
-    flex-direction: row;
-    
-  }
+  border-radius: 12px;
+  box-shadow: 0px 0px 12px var(--color-texto-suave);
+}
 
-    .upcoming-movies-poster
-    {
-      margin: 12px;
-      /* width 160 - height 240 compatible with 4 rule */
-      width: 160px;
-      height: 240px;
+.upcoming-movies-vertical-layering {
+  flex-direction: column;
+}
 
-      border-radius:12px;
-      box-shadow: 0px 0px 12px var(--color-texto-suave);
-    }
+.upcoming-movies-title {
+  font-size: 36px;
+  margin: 12px;
+}
 
-  .upcoming-movies-vertical-layering
-  {
-    flex-direction: column;
-  }
+.upcoming-movies-synopsis {
+  margin-left: 12px;
+  margin-right: 12px;
+  /*width: 600px;*/
+}
+.upcoming-movies-detail-horizontal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
-  .upcoming-movies-title
-  {
-    font-size: 36px;
-    margin: 12px;
-  }
+.upcoming-movies-detail {
+  margin-left: 12px;
+  margin-right: 12px;
+  display: inline-block;
+}
 
-  .upcoming-movies-synopsis
-  {
-    margin-left: 12px;
-    margin-right: 12px;
-    /*width: 600px;*/
-  }
-  .upcoming-movies-detail-horizontal-container
-  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-  }
+.upcoming-movies-detail-title {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: var(--color-texto);
+  font-weight: 700;
+}
 
-    .upcoming-movies-detail
-    {
-      margin-left: 12px;
-      margin-right: 12px;
-      display: inline-block;
-    }
-
-      .upcoming-movies-detail-title
-      {
-        margin-left: 12px;
-        margin-right: 12px;
-        color: var(--color-texto);
-        font-weight: 700;
-      }
-
-@media (max-width: 890px)
-{
-  .upcoming-movies-container
-  {
-    
+@media (max-width: 890px) {
+  .upcoming-movies-container {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
   }
-  .upcoming-movies-detail
-  {
+  .upcoming-movies-detail {
     /* Cant find a prettier way */
     width: 50px;
   }
-  .upcoming-movies-detail-horizontal-container
-  {
+  .upcoming-movies-detail-horizontal-container {
     width: 50px;
   }
-
 }
