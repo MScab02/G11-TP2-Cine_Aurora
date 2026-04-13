@@ -1,0 +1,6 @@
+@import url(../style.css);
+
+footer {
+  font-size: 14px;
+  color: var(--color-texto);
+}

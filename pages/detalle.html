@@ -7,14 +7,23 @@
     <meta name="description" content="Cine Aurora - Detalle de la película." />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/detalles.css" />
+    <link rel="stylesheet" href="../css/components/button.css" />
+    <link rel="stylesheet" href="../css/components/card-horizontal.css" />
+    <link rel="stylesheet" href="../css/components/card-vertical.css" />
+    <link rel="stylesheet" href="../css/components/header.css" />
+    <link rel="stylesheet" href="../css/components/footer.css" />
+    <link rel="stylesheet" href="../css/components/grids.css" />
+    <link rel="stylesheet" href="../css/components/nav.css" />
+    <link rel="stylesheet" href="../css/components/poster.css" />
   </head>
   <body>
     <header>
-      <div>
+      <div class="Logo">
         <h1>Cine Aurora</h1>
         <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
       </div>
-      <div>
+      <div class="Menu">
         <nav>
           <a href="../index.html">Inicio</a>
           <a href="../pages/estrenos.html">Próximos estrenos</a>
@@ -25,58 +34,78 @@
 
     <main>
       <section>
-        <div>
-          <img src="../assets/img/poster-1.png" alt="Póster" />
-        </div>
-        <div>
-          <div>
-            <h1>Título</h1>
-            <h2>Lorem ipsum, dolor sit.</h2>
+        <div class="contenedor">
+          <div class="poster" style="grid-area: caja1">
+            <img src="../assets/img/poster-1.png" alt="Póster" />
           </div>
-          <div>
-            <h3>Sinopsis</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              ullam ipsum corporis quidem, assumenda magni officia recusandae.
-              Tenetur voluptatem architecto, dolores eius, deleniti quam
-              voluptatibus laboriosam ut recusandae animi quisquam!
-            </p>
-          </div>
-          <div>
-            <h3>Duración</h3>
-            <p>155 minutos</p>
-          </div>
+            <div class="titulo-pelicula card-vertical" style="grid-area: caja2">
+              <h1>Título</h1>
+              <h2>Subtítulo</h2>
+            </div>
+            <div
+              class="sinopsis-pelicula card-vertical"
+              style="grid-area: caja3"
+            >
+              <h3>Sinopsis</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div
+              class="duracion-pelicula card-horizontal"
+              style="grid-area: caja4"
+            >
+              <h3>Duración</h3>
+              <p>--- minutos</p>
+            </div>
 
-          <div>
-            <h3>Género</h3>
-            <p>Ciencia ficción</p>
-          </div>
+            <div class="genero-pelicula card-horizontal" style="grid-area: caja5">
+              <h3>Género</h3>
+              <p>Lorem ipsum</p>
+            </div>
 
-          <div>
-            <h3>Director</h3>
-            <p>John Doe</p>
-          </div>
+            <div
+              class="director-pelicula card-horizontal"
+              style="grid-area: caja6"
+            >
+              <h3>Director</h3>
+              <p>Lorem ipsum</p>
+            </div>
 
-          <div>
-            <h3>Clasificación</h3>
-            <p>+13</p>
-          </div>
-          <div>
-            <h3>Horarios:</h3>
-            <p>16:00</p>
-            <p>19:00</p>
-            <p>22:00</p>
-          </div>
-          <div>
-            <p>Puntuación: ★★★★☆</p>
-          </div>
-          <a
-            href="#"
-            onclick="
-              alert('Lo sentimos, en este momento no funciona nuestro sistema')
-            "
-            >Comprar entradas</a
-          >
+            <div
+              class="clasificacion-pelicula card-horizontal"
+              style="grid-area: caja7"
+            >
+              <h3>Clasificación</h3>
+              <p>--</p>
+            </div>
+            <div
+              class="horarios-pelicula"
+              style="grid-area: caja8"
+            >
+              <h3>Horarios:</h3>
+              <p>16:00</p>
+              <p>18:30</p>
+              <p>21:00</p>
+              <p>23:30</p>
+            </div>
+            <div
+              class="puntuacion-pelicula card-horizontal"
+              style="grid-area: caja9"
+            >
+              <h3>Puntuación:</h3>
+              <p>★★★★☆</p>
+            </div>
+            <div class="comprar-entradas" style="grid-area: caja10;">
+            <a
+              href="#"
+              onclick="
+                alert(
+                  'Lo sentimos, en este momento no funciona nuestro sistema',
+                )
+              "
+              class="boton">Comprar entradas</a
+            >
         </div>
       </section>
     </main>
