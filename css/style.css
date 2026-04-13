@@ -84,16 +84,6 @@ h3 {
   font-weight: bold;
 }
 
-header {
-  width: auto;
-  background-color: #0f172a;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  border-radius: 8px;
-}
 
 header .Logo {
   font-size: 20px;
@@ -214,6 +204,11 @@ h2 {
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
+}
+
+header img {
+  height: 60px;
+  width: auto;
 }
 
 .card:hover img {
