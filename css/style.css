@@ -229,3 +229,114 @@ h2 {
     gap: 10px;
   }
 }
+
+/* Estrenos CSS */
+
+#id-upcoming-movies-title
+{
+  display: flex;
+  justify-self: center;
+}
+
+  #id-upcoming-movies-title h1
+  {
+    color: var(--color-texto);
+  }
+  
+
+.upcoming-movies-container
+{
+  margin:16px;
+  gap: 16px;
+  background-color: var(--color-superficie);
+  border-radius: 24px;
+  justify-self: center;
+  width: 60%;
+}
+
+  .upcoming-movies-container a 
+  {
+    all: unset;
+    cursor: pointer;
+  }
+
+
+
+  .upcoming-movies-horizontal-layering
+  {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+    .upcoming-movies-poster
+    {
+      margin: 12px;
+      /* width 160 - height 240 compatible with 4 rule */
+      width: 160px;
+      height: 240px;
+
+      border-radius:12px;
+      box-shadow: 0px 0px 12px var(--color-texto-suave);
+    }
+
+  .upcoming-movies-vertical-layering
+  {
+    flex-direction: column;
+  }
+
+  .upcoming-movies-title
+  {
+    font-size: 36px;
+    margin: 12px;
+  }
+
+  .upcoming-movies-synopsis
+  {
+    margin-left: 12px;
+    margin-right: 12px;
+    /*width: 600px;*/
+  }
+  .upcoming-movies-detail-horizontal-container
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+
+    .upcoming-movies-detail
+    {
+      margin-left: 12px;
+      margin-right: 12px;
+      display: inline-block;
+    }
+
+      .upcoming-movies-detail-title
+      {
+        margin-left: 12px;
+        margin-right: 12px;
+        color: var(--color-texto);
+        font-weight: 700;
+      }
+
+@media (max-width: 890px)
+{
+  .upcoming-movies-container
+  {
+    
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .upcoming-movies-detail
+  {
+    /* Cant find a prettier way */
+    width: 50px;
+  }
+  .upcoming-movies-detail-horizontal-container
+  {
+    width: 50px;
+  }
+
+}
