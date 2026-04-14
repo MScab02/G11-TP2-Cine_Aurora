@@ -1,0 +1,28 @@
+@import url(../style.css);
+
+.boton {
+  background-color: var(--color-primario);
+  color: var(--color-texto);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.boton:hover {
+  background-color: var(--color-secundario);
+  color: var(--color-texto);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.boton:active {
+  background-color: var(--color-secundario);
+  color: var(--color-texto-suave);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
